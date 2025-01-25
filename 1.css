@@ -1,0 +1,39 @@
+* {
+  background-color: pink;
+}
+
+img {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: 2px 4px 2px 4px rgba(0, 0, 0, 0.199);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.btns {
+  gap: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+#btn-yes {
+  cursor: pointer;
+}
+button {
+  margin-top: 10px;
+  background-color: #008080;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+#btn-no {
+  position: relative;
+}
